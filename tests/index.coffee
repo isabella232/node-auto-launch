@@ -10,7 +10,7 @@ if /^win/.test process.platform
     executablePath = path.resolve path.join './tests/executables', 'GitHubSetup.exe'
 else if /darwin/.test process.platform
     isMac = true
-    executablePath = '/Applications/Calculator.app'
+    executablePath = '/Applications/Franz.app'
 else if /linux/.test process.platform
     executablePath = path.resolve path.join './tests/executables', 'hv3-linux-x86'
 
